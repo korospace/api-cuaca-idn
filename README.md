@@ -18,6 +18,32 @@
 - [x] Wind direction
 - [x] Wind speed
 
+<details open="open">
+  <summary>Table Of Content</summary>
+  <ul>
+    <li>
+        <a href="#demo">
+            Demo
+        </a>
+    </li>
+    <li>
+        <a href="#province">
+            Province List
+        </a>
+    </li>
+    <li>
+        <a href="#city">
+            City List
+        </a>
+    </li>
+    <li>
+        <a href="#weather">
+            Weather
+        </a>
+    </li>
+  </ul>
+</details>
+
 ## DEMO
 FE: <a href='https://cuacaidn.web.app/#/'>https://cuacaidn.web.app/#/</a> <br>
 API: <a href='https://api-cuaca-indo.up.railway.app/'>https://api-cuaca-indo.up.railway.app/</a>
@@ -51,7 +77,7 @@ API: <a href='https://api-cuaca-indo.up.railway.app/'>https://api-cuaca-indo.up.
       // ...
     ```
 
-## CITIY
+## CITY
 
  * Source <br>
    <a href="https://farizdotid.com/blog/dokumentasi-api-daerah-indonesia/">https://farizdotid.com/blog/dokumentasi-api-daerah-indonesia/</a>
