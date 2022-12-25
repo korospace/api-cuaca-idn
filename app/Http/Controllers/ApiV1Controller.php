@@ -73,6 +73,7 @@ class ApiV1Controller extends Controller
                 foreach ($dataByCity as $district) {
         
                     foreach ($district['parameter'] as $p) {
+                        $now = [];
                         
                         foreach ($p['timerange'] as $t) {
                             $dateTime  = Helpers::createTimeStamp($t['@attributes']['datetime']);
@@ -80,7 +81,7 @@ class ApiV1Controller extends Controller
                             
                             // now
                             if (time() < strtotime($dateTime)) {
-                                $arrDistrict[$district['name'][0]]['now'][$p['@attributes']['description']] = [
+                                $now[] = [
                                     "timestamp" => $dateTime,
                                     "value"     => $attrValue,
                                 ]; 
@@ -93,6 +94,8 @@ class ApiV1Controller extends Controller
                             ];
                         
                         }
+
+                        $arrDistrict[$district['name'][0]]['now'][$p['@attributes']['description']] = $now[0];
                             
                     }
         
