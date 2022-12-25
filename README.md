@@ -19,7 +19,8 @@
 - [x] Wind speed
 
 ## DEMO
-<a href='https://api-cuaca-indo.up.railway.app/'>https://api-cuaca-indo.up.railway.app/</a>
+FE: <a href='https://cuacaidn.web.app/#/'>https://cuacaidn.web.app/#/</a> <br>
+API: <a href='https://api-cuaca-indo.up.railway.app/'>https://api-cuaca-indo.up.railway.app/</a>
 
 ## PROVINCE
 
